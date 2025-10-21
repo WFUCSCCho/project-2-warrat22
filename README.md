@@ -67,16 +67,30 @@ Run your program several times for different number of lines of your dataset, N,
 Using your favorite graphing software (e.g., MS Excel or Google Sheets), plot the running time (in seconds) and rate (in seconds per node) vs. N for each case, comparing the BST and AVL Trees (i.e., two lines per graph). Take a screenshot of your graph and put them here by modifying this file, committing, and pushing it to this repository.
 
 BST vs. AVL Tree running time (insertion):
-(insert here)
+
+![](Insert_Comparison.png)
 
 BST vs. AVL Tree running time (search):
-(insert here)
+
+![](Search_Comparison.png)
 
 BST vs. AVL Tree running rate (insertion):
-(insert here)
+
+![](Insert_Rate.png)
 
 BST vs. AVL Tree running rate (search):
-(insert here)
+
+![](Search_Rate.png)
+
+## Chat GPT Involvement
+Prompt: I pasted the skeleton code for the AvlTree class and wrote: "given this avl tree class, fill give code for all the methods that are incomplete"
+
+Response: The response is extremely long, but here is a snapshot of the beginning:
+
+![](ChatGPT_Response.png)
+
+Analysis: This Chat GPT insight was actually quite helpful. The missing methods were filled in correctly in the first attempt. I think giving the skeleton code made it helpful for ChatGPT to know exactly what it needed to output,
+and it output the entire class without changing anything that was already there. The more specific the instructions are, the more helpful the output seems to be.
 
 ## Submission:
 
@@ -94,5 +108,4 @@ I ___strongly suggest___ that you carefully think through your strategy before j
 ∗ @description: This program implements . . .
 ∗ @author: Your Name
 ∗ @date: October 21, 2025
-∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗/
-```
+∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗�
